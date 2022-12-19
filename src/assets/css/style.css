@@ -1,0 +1,74 @@
+/* global css */
+.adalot-margin-top {
+    margin-top: 30px;
+}
+.adalot-margin-bottom {
+    margin-top: 30px;
+}
+
+/* global css end */
+
+
+
+/* layout left sidebar style  */
+
+.ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header {
+    color: white;
+}
+.ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content > .ant-collapse-content-box {
+    color: white;
+}
+/* for ant icon in collapse  */
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-extra {
+    float: left;
+    margin-top: -5px;
+    margin-right:5px;
+    font-size: 17px;
+}
+
+/* collapse li left right padding set 0px */
+.ant-collapse-content > .ant-collapse-content-box {
+    padding: 16px 0;
+}
+
+/* all table style */
+.table-wrapper {
+    width: 100%;
+    min-height: 80vh;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.create-button {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+/* all table style end */
+
+/* all form vue page grid style  */
+.gridrow > * {
+    padding-bottom: 15px;
+}
+/* all form vue page grid style  */
+
+/* all create & update form style  */
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+.btn-self {
+    width: 150px;
+}
+
+.label-and-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.label-and-image > .image-view {
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1),-1px -1px 1px 1px rgba(0,0,0,0.1);
+}
+/* all create & update form style  */
